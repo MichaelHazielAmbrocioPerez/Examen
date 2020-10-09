@@ -1,0 +1,65 @@
+package examen;
+
+//no pude :´c
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Examen {
+     ArrayList <Double> milista;
+    public static void main(String[] args) {
+    Examen list = new Examen();
+    list.milista = new ArrayList();
+    list.leerOpcion();
+    
+    
+    
+        List<Double> datos = new ArrayList<Double>();
+        Scanner v = new Scanner(System.in);
+        
+        int opc;
+        Scanner leer = new Scanner(System.in);
+do{    
+        System.out.println("¿Qué operación desea realizar\n"
+            +"[1]Suma\n"
+            +"[2]Resta\n"
+            +"[3]Multiplicacion\n"
+            +"[4]Salir\n");
+    opc = leer.nextInt();
+    
+    
+    switch(opc){
+        case 1:
+                     
+        break;
+        case 2:
+            
+        break;
+        case 3:
+         
+        break;
+        case 4:
+         System.out.println("Entendido,vuelva pronto");
+    }
+    
+    }while(opc!=4);{
+        
+}
+}
+
+    
+    public void Sumar(){
+    Scanner v = new Scanner(System.in);
+    double dato = 0;
+       System.out.println("Que datos deseas sumar");
+       dato = v.nextDouble();
+       milista.add(dato);
+}
+
+    private void leerOpcion() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+}
+
